@@ -490,7 +490,7 @@
     background: linear-gradient(to bottom, #000000, #242F35);
     display: flex;
     gap: 20px;
-    padding: 20px;
+    padding: 20px 160px 20px 160px;
     flex-direction: row;
 }
 
@@ -596,6 +596,7 @@
     height: fit-content;
     width: inherit;
     background-color: #ddd;
+    z-index: 999;
 }
 
 .rec-title > h2 {
@@ -612,6 +613,11 @@
     font-weight: 300;
     color: #888;
 }
+
+#rec-c {
+    margin-top: 150px;
+}
+
 
 .contact-container {
     display: flex;
@@ -737,6 +743,7 @@
     align-items: center;
     background-color: #ddd;
     height: fit-content;
+    align-items: flex-start;
 }
 
 .recomendations {
@@ -761,9 +768,17 @@
     flex-wrap: wrap;
     background-color: #ddd;
     height: fit-content;
-
+    margin-bottom: 250px;
+    text-align: center;
 }
 
+#rec-text-b {   
+    margin-bottom: 250px;
+}
+
+#rec-text-c {   
+    margin-top: 200px;
+}
 
 @media screen and (max-width: 768px) {
     .nav-links {
@@ -938,6 +953,9 @@
 
     .container-recomendations {
         flex-wrap: wrap;
+    }
+    .containerb {
+        padding: 20px;
     }
 
 }
