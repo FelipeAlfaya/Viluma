@@ -193,6 +193,7 @@
     grid-template-columns: repeat(3, 1fr);
     max-width: 100%;
     padding: 50px 25px 25px 25px;
+    gap: 20px;
     height: auto;
     max-height: fit-content;
     background: #ddd;
@@ -548,7 +549,7 @@
 .container-product {
     display: flex;
     gap: 20px;
-    padding: 20px;
+    padding: 20px 20px 150px 20px;
     flex-direction: center;
     justify-content: center;
     align-items: center;
@@ -583,6 +584,7 @@
     height: fit-content;
     width: inherit;
     background-color: #242F35;
+    text-align: center;
 }	
 
 .rec-title {
@@ -696,9 +698,9 @@
 }
 
 #box-shadow {
-    -webkit-box-shadow: 10px 10px 23px -10px rgba(0,0,0,0.75);
-    -moz-box-shadow: 10px 10px 23px -10px rgba(0,0,0,0.75);
-    box-shadow: 10px 10px 23px -10px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 41px -12px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 41px -12px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 41px -12px rgba(0,0,0,0.75);
 }
 
 .font {
