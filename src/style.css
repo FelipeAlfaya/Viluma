@@ -386,7 +386,7 @@
 
    .footer {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     color: #fff;
     padding: 20px;
     flex-direction: row;
@@ -444,6 +444,21 @@
     flex-direction: column;
 }
 
+.last-column {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}	
+
+.last-column h3 {
+    max-width: 300px;
+    }
+
+.last-column a {
+    padding-top: 10px;
+}
+
 .middle-column h3 {
     margin-right: 26px;
 }
@@ -470,7 +485,7 @@
 }
 .test {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
     flex-direction: column;
