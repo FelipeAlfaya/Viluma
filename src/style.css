@@ -110,7 +110,6 @@
     cursor: pointer;
 }
 
-
 .contact-button {
     background-color: #FFC033;
     color: white;
@@ -134,8 +133,6 @@
     margin-left: 30px;
     transition: 0.3s;
 }
-
-
 
 .contact-button:hover {
     opacity: 0.7;
@@ -166,6 +163,7 @@
     width: 46%;
     max-width: 900px;
     margin: 0 auto;
+    flex-direction: column;
 }
 
 .hero > h1 {
@@ -182,10 +180,8 @@
 }
 
 .hero-buttons {
-    display: flex;
     justify-content: center;
     margin-top: 20px;
-
 }
   
 .product-grid {
@@ -256,6 +252,8 @@
     opacity: 0.5;
 }
 
+
+
 .button-t {
     background-color: #000000/0;
     border: 1px solid #FFC033;
@@ -263,8 +261,8 @@
     padding: 10px 10px;
     border-radius: 5px;
     text-decoration: none;
+    margin: 0 0 0 0 !important;
     cursor: pointer;
-    margin-left: 30px;
     position: relative;
  }
 
@@ -328,6 +326,10 @@
    .image > img:hover {
     transition: 0.3s;
     opacity: 0.7;
+   }
+
+   .image-container {
+    border-radius: 15px;
    }
 
    .red {
@@ -508,6 +510,7 @@
     gap: 20px;
     padding: 20px 160px 20px 160px;
     flex-direction: row;
+    margin-top: 60px;
 }
 
 .containerb > img {
@@ -870,9 +873,15 @@
 
     .hero {
         width: 80%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     .hero-buttons {
+        display: flex;
+        align-items: center;
+        justify-content: center;
         flex-direction: column;
         margin-top: 10px;
     }
